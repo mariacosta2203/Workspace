@@ -1,0 +1,27 @@
+body{
+    background-image: url(IMG/estrelaestrela.jpg);
+    background-position: 600px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 500px 500px;
+}
+
+#frutas{
+    /*1°: grossura da borda/2°: estilo da borda/3°: cor da borda*/
+    border: 2px dashed purple;
+}
+
+#dormir{
+    border: 2px dotted lawngreen;
+} 
+
+#citricaimg{
+    width: 600px;
+    height: 400px;
+}
+
+#dormirimg{
+    width: 600px;
+    height: 400px;
+}
+
