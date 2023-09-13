@@ -1,0 +1,31 @@
+/*Colocar borda nas divs de uma 1px solid e cor de sua escolha*/
+
+div{
+    border: 1px solid #C71585;
+    /*   
+     topo(top)= 10px
+    margin-top: 10px;
+     right(direita)= 50px
+    margin-right: 50px;
+     bottom(embaixo)= 50px
+    margin-bottom: 50px;
+    left(esquerda)= 50px
+    margin-left: 50px; */
+
+    margin: 50px;
+}
+
+/* colocar uma borda no parafráfo 1px solid cor de sua escolha*/
+
+p{
+    border: 1px solid 	#9370DB;
+    /* padding-top: 150px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 200px; */
+
+    margin: 50px;
+}
+
+/* topo= 2px direito= 4px embaixo=7px esquerda=40px*/
+
