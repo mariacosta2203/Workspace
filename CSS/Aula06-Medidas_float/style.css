@@ -1,0 +1,16 @@
+*{
+    font-size: 40px;
+}
+
+#pai{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+}
+
+p{
+    background-color: aqua;
+    width: 50vw;
+    height: 50%;
+}
+
