@@ -1,4 +1,4 @@
-*{
+/* *{
     font-size: 40px;
 }
 
@@ -12,5 +12,17 @@ p{
     background-color: aqua;
     width: 50vw;
     height: 50%;
+} */
+
+img{
+    width: 300px;
+    height: 200px;
 }
 
+#imagem1{
+    float: right;   
+}
+
+#imagem2{
+    float: left;
+}

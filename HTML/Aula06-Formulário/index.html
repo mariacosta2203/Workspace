@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Formulário</title>
-    </head>
-    <body>
 
-        <!-- Formulário -->
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
 
-        <form action="https://ios.org.br/" method="post">
+<body>
 
-            <label for="">Nome do usuário:</label>
-            <input type="text" required>
-            <br><br>
-            <label for="">Número de telefone:</label>
-            <input type="number">
-            <br><br>
-            <label for="">CEP:</label>
-            <input type="number">
-            <br><br>
+    <!-- Formulário -->
 
-            <input value="Cadastra-se" type="submit">
+    <form action="https://ios.org.br/" method="post">
 
-            <!-- Tipo radio -->
+        <label for="">Nome do usuário:</label>
+        <input type="text" required>
+        <br><br>
+        <label for="">Número de telefone:</label>
+        <input type="number">
+        <br><br>
+        <label for="">CEP:</label>
+        <input type="number">
+        <br><br>
 
-            <h4>Escolha sua música:</h4>
-            
-            <input type="radio" name="musica">
-            <label for="">Swether Weather</label>
-            <br><br>
-            <input type="radio" name="musica">
-            <label for="">Formation</label>
-            <br><br>
-            <input type="radio" name="musica">
-            <label for="">Run the Word</label>
-            <br><br>
-            <input type="radio" name="musica">
-            <label for="">Wolf and Sheep</label>
+        <input value="Cadastra-se" type="submit">
 
-            <!-- Tipo checkbox -->
+        <!-- Tipo radio -->
 
-            <h4>Sabor da pipoca:</h4>
+        <h4>Escolha sua música:</h4>
 
-            <input type="checkbox">
-            <label for="">Doce</label>
-            <br><br>
-            <input type="checkbox">
-            <label for="">Salgada</label>
-            <br><br>
-            <input type="checkbox">
-            <label for="">Caramelizada</label>
-            <br><br>
-            <input type="checkbox">
-            <label for="">Amanteigada</label>
-            <br><br>
+        <input type="radio" name="musica">
+        <label for="">Swether Weather</label>
+        <br><br>
+        <input type="radio" name="musica">
+        <label for="">Formation</label>
+        <br><br>
+        <input type="radio" name="musica">
+        <label for="">Run the Word</label>
+        <br><br>
+        <input type="radio" name="musica">
+        <label for="">Wolf and Sheep</label>
 
-            <!-- Tipo range -->
+        <!-- Tipo checkbox -->
 
-            <label for="">05</label>
-            <input type="range">
-            <label for="">100</label>
-            <br><br>
+        <h4>Sabor da pipoca:</h4>
 
-            <!-- Tag select -->
+        <input type="checkbox">
+        <label for="">Doce</label>
+        <br><br>
+        <input type="checkbox">
+        <label for="">Salgada</label>
+        <br><br>
+        <input type="checkbox">
+        <label for="">Caramelizada</label>
+        <br><br>
+        <input type="checkbox">
+        <label for="">Amanteigada</label>
+        <br><br>
 
-            <label for="">Sorvete</label>
-            <select name="" id="">
-                <option value="Selecione">Selecione</option>
-                <option value="Chocolate">Chocolate</option>
-                <option value="Trufado">Trufado</option>
-                <option value="Milho verde">Milho verde</option>
-                <option value="Flocos">Flocos</option>
-                <option value="Chiclete">Chiclete</option>
-            </select>
-            <br><br>
+        <!-- Tipo range -->
 
-             <!-- Tag datalist -->
+        <label for="">05</label>
+        <input type="range">
+        <label for="">100</label>
+        <br><br>
 
-             <label for="">Selecione o seu filme:</label>
-             <input type="text" list="filmes">
-            <datalist id="filmes">
-                <option value="Big Hero">Big Hero</option>
-                <option value="Frozen">Frozen</option>
-                <option value="Divertida Mente">Divertida Mente</option>
-                <option value="Valente">Valente</option>
-                <option value="Como treinar seu dragão">Como treinar seu dragão</option>
-            </datalist>
-            <br><br>
+        <!-- Tag select -->
 
-            <!-- Tag textarea: cols(coluna) and rows(linhas) -->
+        <label for="">Sorvete</label>
+        <select name="" id="">
+            <option value="Selecione">Selecione</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Trufado">Trufado</option>
+            <option value="Milho verde">Milho verde</option>
+            <option value="Flocos">Flocos</option>
+            <option value="Chiclete">Chiclete</option>
+        </select>
+        <br><br>
 
-            <fieldset>
-                <legend>Fale sobre o seu filme favorito</legend>
-                <label for="">Filmes</label>
-                <input type="text">
-                <textarea name="" id="" cols="10" rows="10"></textarea>
-            </fieldset>
-            
+        <!-- Tag datalist -->
 
-            <fieldset>
-                <legend>Fale sobre o seu show preferido da Xuxa</legend>
-                <label for="">O show da Xuxa</label>
-                <input type="text">
-                <textarea name="" id="" cols="10" rows="10"></textarea>
-            </fieldset>
+        <label for="">Selecione o seu filme:</label>
+        <input type="text" list="filmes">
+        <datalist id="filmes">
+            <option value="Big Hero">Big Hero</option>
+            <option value="Frozen">Frozen</option>
+            <option value="Divertida Mente">Divertida Mente</option>
+            <option value="Valente">Valente</option>
+            <option value="Como treinar seu dragão">Como treinar seu dragão</option>
+        </datalist>
+        <br><br>
+
+        <!-- Tag textarea: cols(coluna) and rows(linhas) -->
+
+        <fieldset>
+            <legend>Fale sobre o seu filme favorito</legend>
+            <label for="">Filmes</label>
+            <input type="text">
+            <textarea name="" id="" cols="10" rows="10"></textarea>
+        </fieldset>
 
 
-        </form>
-    </body>
+        <fieldset>
+            <legend>Fale sobre o seu show preferido da Xuxa</legend>
+            <label for="">O show da Xuxa</label>
+            <input type="text">
+            <textarea name="" id="" cols="10" rows="10"></textarea>
+        </fieldset>
+
+
+    </form>
+</body>
+
 </html>
