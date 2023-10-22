@@ -24,7 +24,7 @@ console.clear()
 const string04 = "Maria"
 console.log(string04.substring(1, 4)) 
 
-console.clear()
+// console.clear()
 
 var textoOriginal = "Eduarda"
 var textoAlterado = "Maria"
@@ -34,7 +34,7 @@ let replacene = textoOriginal.replace("Eduarda", textoAlterado)
 console.log("Texto original: " + textoOriginal)
 console.log("Texto alterado: " + textoAlterado)
 
-console.clear()
+// console.clear()
 
 var retirada = "          Viva à vida é uma festa       "
 // console.log(retirada)
