@@ -50,7 +50,7 @@ console.log(numArray)
 console.log(retiraInicio)
 
 let inseriNovo = numArray.unshift("Kiwi")
-console.log(numArray)
+console.log(numArray)   
 delete numArray[2]
 
 
