@@ -14,3 +14,10 @@ const notebook = {
     SistemaOperacional: 'Linux'
 }
 console.log(notebook)
+
+function myFunc(valor1, valor2) {
+    return valor1 * valor2
+}
+
+let conversao = myFunc(3, 365)
+console.log(conversao)
