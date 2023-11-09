@@ -12,6 +12,8 @@ function minhaNumber(num) {
 
 const unidi = [17, 43, 8, 4, 97, 56, 29, 3,  75,  34, 88, 82, 61]
 
-unidi.forEach((meuNu) => {
-    return numbers 
+let filtroUnidi = unidi.filter((percorrer) => {
+  return percorrer >= 20;
 });
+
+console.log(filtroUnidi)
