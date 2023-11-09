@@ -12,24 +12,24 @@ console.clear()
 
 
 
-function imparPar(num){
-    if(num % 2 == 0){
-        return `O número ${num} é par`
-    }else if(num % 2 == 1){
-        return `O número ${num} é impar`
-    }else{
-        return `Não consegui identificar se é impar ou par`
-    }
-}
+// function imparPar(num){
+//     if(num % 2 == 0){
+//         return `O número ${num} é par`
+//     }else if(num % 2 == 1){
+//         return `O número ${num} é impar`
+//     }else{
+//         return `Não consegui identificar se é impar ou par`
+//     }
+// }
 
-let recebePrimeiroNumero = imparPar(5)
-console.log(recebePrimeiroNumero)
+// let recebePrimeiroNumero = imparPar(5)
+// console.log(recebePrimeiroNumero)
 
-let recebeSegundoNumero = imparPar(5.75)
-console.log(recebeSegundoNumero)
+// let recebeSegundoNumero = imparPar(5.75)
+// console.log(recebeSegundoNumero)
 
-var contexto = 5.75 % 2;
-console.log(contexto)
+// var contexto = 5.75 % 2;
+// console.log(contexto)
 
 console.clear()
 
